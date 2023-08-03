@@ -1,0 +1,31 @@
+{
+  "name": "find-root-package-json",
+  "version": "1.0.0",
+  "description": "Returns the path to the nearest package.json file or the root package.json if in a workspace.",
+  "main": "./dist/cjs/index.js",
+  "exports": "./dist/cjs/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "workspace",
+    "monorepo",
+    "package.json"
+  ],
+  "files": [
+    "./dist/cjs/*"
+  ],
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@npmcli/map-workspaces": "^3.0.4",
+    "read-package-json-fast": "^3.0.2",
+    "walk-up-path": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  }
+}

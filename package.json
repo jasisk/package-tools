@@ -1,0 +1,11 @@
+{
+  "name": "package-tools",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "packageManager": "npm@9.8.1",
+  "engines": {
+    "node": ">=20"
+  }
+}

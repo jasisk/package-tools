@@ -1,0 +1,22 @@
+{
+  "name": "setpm",
+  "version": "1.0.0",
+  "description": "set packageManager to latest in your root package.json",
+  "main": "./index.js",
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@npmcli/package-json": "^4.0.1",
+    "find-root-package-json": "^1.0.0",
+    "js-yaml": "^4.1.0",
+    "npm-package-arg": "^10.1.0",
+    "npm-pick-manifest": "^8.0.2",
+    "pacote": "^15.2.0",
+    "semver": "^7.5.4"
+  },
+  "type": "module",
+  "bin": "./index.js",
+  "files": [
+    "index.js"
+  ]
+}

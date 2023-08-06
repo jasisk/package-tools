@@ -1,6 +1,6 @@
 {
   "name": "find-root-package-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Returns the path to the nearest package.json file or the root package.json if in a workspace.",
   "main": "./dist/cjs/index.js",
   "exports": "./dist/cjs/index.js",
@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc"
   },
+  "bin": "./dist/cjs/bin.js",
   "keywords": [
     "workspace",
     "monorepo",
@@ -24,8 +25,8 @@
     "walk-up-path": "^3.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20.4.5",
-    "prettier": "^3.0.0",
+    "@types/node": "^20.4.8",
+    "prettier": "^3.0.1",
     "typescript": "^5.1.6"
   }
 }
